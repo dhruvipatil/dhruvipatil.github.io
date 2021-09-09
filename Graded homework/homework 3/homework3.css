@@ -1,0 +1,350 @@
+html
+{
+  max-width:1440px ;
+  min-width:1440px;
+  width:1400px;
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
+}
+
+body
+{
+  max-width:1440px ;
+  min-width:1440px;
+  width:1400px;
+  margin:0px;
+  padding:0px;
+}
+
+/* .debug { */
+  /* border: 1px solid red; */
+/* } */
+
+.header_nav
+{
+margin-left: 80px;
+margin-right: 70px;
+/* position: relative; */
+
+}
+li a:hover
+ {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color:white;
+  }
+
+  .active {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+  }
+  li a {
+    margin-right:2px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: block;
+    color: #dadada;
+    text-align: center;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    /* padding: 14px 16px; */
+    text-decoration: none;
+  }
+
+  ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    overflow: hidden;
+    background-color:white;
+  }
+
+  .column{
+    float: left;
+    width: 27%;
+    height: 240px; 
+    margin-left:60px;
+    margin-right:1S0px;
+  }
+  
+  .row{
+    content:"";
+    padding:50px; 
+    display: table;
+    clear: both;
+    margin-top:65px;
+    margin-bottom: 15px;
+  }
+  
+  .content1
+  {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:13px;
+   font-weight:600;
+   margin-right: 25px;
+   color:gray;
+   line-height: 25px;
+  }
+  
+  .content_heading
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-family: Montserrat;
+    /* margin-left:2px; */
+    /* margin-right:90px; */
+  }
+  
+  .bg-img
+  {
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("https://csci571.com/hw/hw3/images/lawyer.jpg");
+    /*filter: brightness(50%);*/
+    width:1400px;
+    max-width:1400px;
+    height: 720px; 
+    background-size: 1400px 720px;
+    background-repeat: no-repeat;
+    /* position: relative; */
+  }
+
+  .btn
+  {
+    color:black;
+    background-color:#FADD16;
+    border:black;
+    width:130px;
+    height:50px;
+    margin-top: 13px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+
+  .form1
+  {
+  position: absolute;
+  margin-left:125px;
+  margin-top: 145px;
+  width:360px;
+  height:385px;
+  padding: 16px;
+  background-color: #0b3c5d; 
+  color:white;
+  line-height: 2px;
+  }
+.form_text
+{
+  padding-left:40px;
+  padding-top:20px;
+}
+  .row2
+  {
+    background-color:#f4f4f4;
+    width:1400px;
+    max-width:1400px;
+    height: 350px;
+    /* padding-top: 120px; */
+    text-align: center;
+  }
+.row2_text
+{
+padding-top: 120px;
+height: 150px;
+}
+.container
+{
+  margin-top:0px;
+}
+
+  .even-cols {
+    display: flex;
+    padding-top:80px;
+    margin-left: 170px;
+  }
+
+  .even-cols > * {
+    width: 100%;
+  }
+
+
+  .column1
+  {
+    background-image: linear-gradient(rgba(240,240,240,0.92),rgba(240,240,240,0.92)),url("https://csci571.com/hw/hw3/images/grid.png");
+    background-color: #f4f4f4;
+    background-size: 600px;
+    background-repeat: repeat;
+    width:320px;
+    text-align: center;
+    /* display: inline;  */
+    /* margin-left: 30px; */
+    margin-right: 40px;
+    padding-top: 50px;
+    height: 470px;
+    border-color: black;
+  }
+  .column2
+  {
+    width:320px;
+    height: 470px;
+    padding-top: 50px;
+    background-image:linear-gradient(rgba(240,240,240,0.92),rgba(240,240,240,0.92)),url("https://csci571.com/hw/hw3/images/grid.png");
+    background-color: #f4f4f4;
+    background-size: 600px;
+    background-repeat: repeat;
+    /* margin-left: 30px; */
+    margin-right: 40px;
+    /* display:inline; */
+    text-align: center;
+   
+  }
+  .column3
+  {
+    width:320px;
+    height: 470px;
+    padding-top: 50px;
+    background-image:linear-gradient(rgba(240,240,240,0.92),rgba(240,240,240,0.92)),url("https://csci571.com/hw/hw3/images/grid.png");
+    background-color: #f4f4f4; 
+    background-size: 600px;
+    background-repeat: repeat;
+    /* display:inline; */
+    /* margin-left: 30px; */
+    margin-right: 20px;
+    text-align: center;
+  }
+  .plans
+  {
+    color:#989898;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+    margin-top: 30px;
+    text-align: center;
+
+  }
+  .pricing
+  {
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:22px;
+    padding-top: 20px;
+  }
+  .row3
+  {
+    padding-top: 30px;
+    text-align: center;
+    font-family: Montserrat;
+    text-align: center;
+  }
+  .parallax {
+    margin-top: 0px;
+    position: relative;
+    width:1400px;
+    height: 1000px ;
+  }
+  .parallax::before{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(rgba(228,227,227,0.85),rgba(228, 227, 227, 0.85)),url("https://csci571.com/hw/hw3/images/glasses.png");
+    background-color: white;
+    filter: grayscale(100%);
+    background-attachment: fixed;
+    background-position: -50px 0px;
+    max-width:1400px;
+    background-repeat: no-repeat;
+    background-size: 3000px 1000px;
+    /* background-size: cover; */
+  }
+  .row4
+  {
+    background-image: linear-gradient(rgba(12,49,75,0.88),rgba(12,49,75,0.88)), url("https://csci571.com/hw/hw3/images/notebook.jpg");
+    background-position: center;
+    position: relative;
+    width:1400px;
+    max-width:1400px;
+    background-size: 1400px 1000px;
+    background-repeat: no-repeat;
+    height:480px;
+    text-align: center;
+  }
+  .btn2
+  {
+    background-color: #0b3c5d;
+    color:white;
+    border:none;
+    width:120px;
+    height:50px;
+    font-size:13px;
+
+  }
+  .row4_text
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    padding-top: 160px;
+    line-height: 5px;
+  }
+.btn3
+{
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size:12px;
+  background-color:#FADD16;
+  border: none;
+  width:180px;
+  height:45px;
+  margin-top: 22px;
+}
+  .row5
+  {
+    background-color: #1d2530;
+    text-align: center; 
+    width:1400px;
+    max-width:1400px;
+    height:270px;
+
+  }
+
+  .facebook
+  {
+    margin:15px;
+    text-decoration: none
+  }
+
+  .twitter
+  {
+ margin:15px;
+ text-decoration: none
+  }
+  .instagram
+  {
+    margin:15px;
+    text-decoration: none
+  }
+  .gplus
+  {
+    margin:15px;
+    text-decoration: none
+  }
+  .youtube
+  {
+    margin:15px;
+    text-decoration: none
+  }
+  .a
+  {
+    text-decoration: none;
+  }
+  .row5_text
+  {
+  padding-top:70px;
+  }
+  .media
+  {
+    margin-top:40px;
+  }
